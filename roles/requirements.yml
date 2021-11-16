@@ -1,0 +1,3 @@
+- src: git+https://github.com/normandie-demo/role-db.git
+  version: main
+  name: db
