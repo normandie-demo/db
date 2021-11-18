@@ -8,6 +8,6 @@
     no_log: yes
 
   - name: changement pwd mysql
-    shell: /usr/bin/mysqladmin -u root password '{{ new_pass }}' –p{{ old_pass }}
+    shell: /usr/bin/mysqladmin -u root –p{{ old_pass }} password '{{ new_pass }}'
     ignore_errors: yes
     no_log: yes
